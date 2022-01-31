@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body,
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: Lexend Deca, sans-serif;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.cardHolder {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.card {
+  /* position: absolute; */
+  /* top: 100px; */
+  /* left: 10px; */
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 250px;
+  min-height: 200px;
+  max-width: 350px;
+  position: relative;
+}
+
+.cardWrapper {
+  padding: 15px;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 40px;
+  border: none;
+  padding: 2px;
+  height: 30px;
+  width: 120px;
+}
+
+.footer {
+  position: absolute;
+  height: 30px;
+  bottom: 15px;
+  width: calc(100% - 15px - 15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 10px;
+  font-family: Big Shoulders Display, cursive;
+}
+
+.main h1 {
+  font-size: 20px;
+}
+
+.para {
+  margin-top: 10px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
