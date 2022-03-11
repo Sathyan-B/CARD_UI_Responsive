@@ -10,12 +10,11 @@ class Card extends React.Component {
   }
 
   render() {
-    
+
     let mainContent = {
       label: this.props.details.label,
       content: this.props.details.content
     };
-
     const mystyle = {
       color: "white",
       backgroundColor: this.props.details.bgColor
